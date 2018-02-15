@@ -1,0 +1,22 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enevaca/nodejs-verse.git"
+  },
+  "author": "Noel Vaca Moreno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enevaca/nodejs-verse/issues"
+  },
+  "homepage": "https://github.com/enevaca/nodejs-verse#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
