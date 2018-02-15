@@ -1,5 +1,7 @@
 platziverse-db/node_modules
+platziverse-db/package-lock.json
 platziverse-db/.vscode
 
-.vscode
 node_modules
+package-lock.json
+.vscode
