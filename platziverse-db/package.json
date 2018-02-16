@@ -4,7 +4,7 @@
   "description": "A simple IoT Platform - DB Module",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=platziverse:* ava test/ --verbose",
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava test/ --verbose",
     "setup": "DEBUG=platziverse:* node setup.js",
     "lint": "standard"
   },
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/enevaca/nodejs-verse#readme",
   "devDependencies": {
     "ava": "^0.25.0",
+    "nyc": "^11.4.1",
     "sqlite3": "^3.1.13",
     "standard": "^10.0.3"
   },
